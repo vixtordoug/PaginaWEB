@@ -10,6 +10,8 @@
 </head>
 
 <body>
+
+    <!-- Canais de Atendimento (Telefone, WhatsApp, E-mail, Instagram) -->
     <ul>
         <h3>Outros canais de atendimento</h3>
         <li>Horário de funcionamento: 18 horas até 22 horas</li>
@@ -26,7 +28,7 @@
         </li>
 
         <!-- Perfil instagram, com ícone clicável -->
-        <li>@vixtordoug<a href="https://instagram.com/vixtordoug?igshid=1i6o2oa3otys"><img
+        <li>@vixtordoug <a href="https://instagram.com/vixtordoug?igshid=1i6o2oa3otys"><img
                     src="C:\Users\victo\OneDrive\Área de Trabalho\PaginaWEB\img\instagram-icon16.png" width="16"
                     height="16"></a>
         </li>
@@ -42,7 +44,8 @@
                         Víctor Douglas</div>
                 </div>
                 <div id="whatswidget-conversation-message" class="whatswidget-conversation-message "
-                    style="all:revert;">Oi</div>
+                    style="all:revert;">Oi
+                </div>
                 <div class="whatswidget-conversation-cta" style="all:revert;"> <a style="all:revert;"
                         id="whatswidget-phone-desktop" target="_blank"
                         href="https://web.whatsapp.com/send?phone=5588981039143"
@@ -238,37 +241,47 @@
 
     <!-- Formulário com os campos: Nome, E-mail, Endereço, Fone, Mensagem, Botão: Enviar, Botão: Limpar Campos -->
     <!-- Nome Completo -->
-    <label for="nome">Nome Completo:</label>
-    <br>
-    <input type="text" id="nome" name="nome">
-    <br>
-    <br>
+    <form>
+        <label for="nome">Nome Completo:</label>
+        <br>
+        <input type="text" id="nome" name="nome">
+        <br>
+        <br>
 
-    <!-- E-mail -->
-    <label for="email">E-mail:</label>
-    <br>
-    <input type="text" id="email" name="email">
-    <br>
-    <br>
+        <!-- E-mail -->
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="text" id="email" name="email">
+        <br>
+        <br>
 
-    <!-- Endereço -->
-    <label for="end">Endereço:</label>
-    <br>
-    <input type="text" id="end" name="end">
-    <br>
-    <br>
+        <!-- Endereço -->
+        <label for="end">Endereço:</label>
+        <br>
+        <input type="text" id="end" name="end">
+        <br>
+        <br>
 
-    <!-- Telefone -->
-    <label for="fone">Telefone:</label>
-    <br>
-    <input type="text" id="fone" name="fone">
-    <br>
-    <br>
+        <!-- Telefone -->
+        <label for="fone">Telefone:</label>
+        <br>
+        <input type="text" id="fone" name="fone">
+        <br>
+        <br>
 
-    <!-- Mensagem do cliente/usuário -->
-    <label for="msg">Adicione um comentário a cerca da sua experiência:</label>
-    <br>
-    <input type="text" id="msg" name="msg">
+        <!-- Mensagem do cliente/usuário -->
+        <label for="msg">Adicione um comentário a cerca da sua experiência:</label>
+        <br>
+        <textarea cols="30" rows="7" id="msg" name="msg"></textarea>
+        <br>
+        <br>
+
+        <!-- Botão Salvar -->
+        <input type="submit" value="Enviar">
+
+        <!-- Botão Limpar Campos -->
+        <input type="reset" value="Limpar Campos">
+    </form>
 
 </body>
 <img src="" />
